@@ -94,6 +94,7 @@ public class Calculator {
                 this.calc();
                 this.clean();
                 this.first = this.result;
+                this.is_first = false;
             }
             this.operator = str;
         }else{
@@ -101,6 +102,7 @@ public class Calculator {
                 this.calc();
                 this.clean();
                 this.first = this.result;
+                this.is_first = false;
             }else{
                 this.clear();
             }
